@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dosed"
+version = "0.0.4"
+description = "Dreem One Shot Even Detector"
+authors = ["Valentin Thorey, Stanislas Chambon, Albert Bou"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.6.*"
+Cython = "^0.29"
+h5py = "^2.8"
+tqdm = "^4"
+boto3 = "^1.9"
+joblib = "^0.12"
+matplotlib = "^3"
+pyedflib = "^0.1"
+torch = "^1" # updated from requirements.txt as torch 1.0 is no longer available
+pytest = "^3.10"
+pytest-cov = "^2.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
