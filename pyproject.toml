@@ -6,7 +6,7 @@ authors = ["Valentin Thorey, Stanislas Chambon, Albert Bou"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.6.*"
+python = "3.8.*"
 Cython = "^0.29"
 h5py = "^2.8"
 tqdm = "^4"
@@ -17,6 +17,8 @@ pyedflib = "^0.1"
 torch = "^1" # updated from requirements.txt as torch 1.0 is no longer available
 pytest = "^3.10"
 pytest-cov = "^2.6"
+ipython = "^7.23.1"
+jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
