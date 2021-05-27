@@ -15,7 +15,7 @@ dependencies = [
     "numpy~=1.19",
     "pyedflib~=0.1",
 ]
-requires-python = "~=3.6"
+requires-python = "~=3.8"
 dynamic = ["classifiers"]
 license = {text = "MIT"}
 
