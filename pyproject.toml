@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "dosed"
-version = "0.0.4"
-description = "Dreem One Shot Even Detector"
+version = "0.0.5"
+description = "Dreem One Shot Event Detector"
 authors = ["Valentin Thorey, Stanislas Chambon, Albert Bou"]
 license = "MIT"
 
