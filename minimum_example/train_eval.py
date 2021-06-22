@@ -52,6 +52,7 @@ from dosed.datasets import get_train_validation_test
 from dosed.trainers import trainers
 from dosed.preprocessing import GaussianNoise, RescaleNormal, Invert
 
+
 seed = 2019
 
 

@@ -6,7 +6,7 @@ authors = ["Valentin Thorey, Stanislas Chambon, Albert Bou"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.8.*"
+python = ">=3.8,<3.10"
 Cython = "^0.29"
 h5py = "^2.8"
 tqdm = "^4"
