@@ -424,6 +424,8 @@ class BalancedEventDataset(EventDataset):
 
         choice = np.random.choice([0, 1], p=[1 - self.ratio_positive, self.ratio_positive])
 
+        # wait... WHAT?! this does not sort events based on their classification
+        # accuracy (that point in the paper seemed iffy anyways though...)
         if choice == 0:
             index = no_events_indexes[np.random.randint(len(no_events_indexes))]
         else:
